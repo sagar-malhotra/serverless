@@ -16,7 +16,7 @@ def send_email(email,token):
 
     # The email body for recipients with non-HTML email clients.
     BODY_TEXT = (
-                "http://prod.sagarmalhotra.me/v1/verifyUserEmail?email="+email+"&token="+token
+                "https://prod.sagarmalhotra.me/v1/verifyUserEmail/email="+email+"&token="+token
                 )     
 
     # The character encoding for the email.
