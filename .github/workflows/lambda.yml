@@ -12,6 +12,8 @@ jobs:
     name: Deploy lambda function
     runs-on: [ ubuntu-latest]
     steps:
+    - name: Repo Checkout
+      uses: actions/checkout@v3
     - name: check
       run: ls
     - name: check
