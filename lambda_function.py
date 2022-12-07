@@ -12,7 +12,7 @@ def send_email(email,token):
     AWS_REGION = "us-east-1"
 
     # The subject line for the email.
-    SUBJECT = "User Verification"
+    SUBJECT = "User Verificatio"
 
     # The email body for recipients with non-HTML email clients.
     BODY_TEXT = (
